@@ -1,0 +1,146 @@
+#header{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(255, 192, 23) ;
+    width: 100%;
+    position: fixed;
+}
+
+#navbar{
+    display:flex;
+    justify-content: center;
+}
+#navbar ul{
+    margin-top: 2.5rem;
+    position: absolute;
+    right: 300px;
+}
+#navbar h1{
+    margin-left: 350px;
+}
+#navbar ul li{
+    display: inline;
+    margin-left: 20px;
+    text-align: center;
+}
+.start{
+    border-style: solid;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: black ;
+    border-color: black;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 99em;
+}
+.h1_1{
+    box-sizing: border-box;
+    margin-left: 10rem;
+    font-size:2.3rem;
+}
+.container{
+    margin: 0px 0px;
+}
+#hr{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    
+}
+#button{
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: black;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+    
+}
+.box{
+    box-sizing: border-box;
+    background-color: #fff;
+    width: 20rem;
+    height: 10rem;
+    margin: 10px;
+    border-radius: 30px;
+}
+.cardbody_2{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+}
+.a{
+    font-family:sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #6B6B74;
+}
+h3{
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+.cardbody_3{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+}
+.main{
+    display: flex;
+    width: 700px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+
+}
+.img{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.ekstra{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-grow: 1;
+
+}
+.kutu{
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #f2f2f2;
+    background-color: #f2f2f2;
+    display: inline-block;
+    height: 40px;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    
+}
+.baslık{
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+.author{
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+.konu{
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #6B6B74;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+#a{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    color: #6B6B74;
+}
